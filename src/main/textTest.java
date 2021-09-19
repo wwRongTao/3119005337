@@ -16,7 +16,7 @@ public class textTest {
      */
     @Test
     public void paperTest(){
-        String path = "E://text//orig.txt";
+        String path = "E://text//origin.txt";
         try {
             new text(path, new HashSet<String>());
         } catch (FileNotFoundException e) {
